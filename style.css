@@ -110,3 +110,66 @@ body {
 }
 
 /*end Divs com info----------------*/
+
+/*Responsividade------------------------*/
+
+@media (max-width: 480px){
+    body {
+        background: black;
+        background-image: url("image3.jpg");
+        background-size: cover;
+        background-position-y:50px ;
+        background-repeat: no-repeat;
+        width:100%;
+        height:100%;
+        
+    }
+
+    
+    .container {
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    }
+
+    .titulo p {
+    font-size: 25px;
+    font-weight: 500;
+    }
+
+    .titulo h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .value {
+        width: 70px;
+        height: 75px;
+        margin: 0;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .label {
+        width: 70px;
+        top: 100px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .date-time {
+        width: 70px;
+    }
+
+    .time-info {
+        justify-content: center;
+    }
+
+   
+
+}
